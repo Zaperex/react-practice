@@ -1,0 +1,48 @@
+<!-- The front-end onboarding take home assignment
+Designed and created by Haocheng(Leo) Li (ECE2T4) at IEEE University of Toronto Student Branch
+DO NOT spread without permission
+2022-11-19 -->
+
+<p>The url for this apge: http://ieee.utoronto.ca/message</p>
+<h1>XXX's personal website</h1>
+
+<h2>Hello! Welcome to XXX's home, please select your action:</h2>
+<h3>1. my introduction</h3>
+<h3>2. my contact</h3>
+<!-- Last one should be highlighted to indicate that you are on this page -->
+<h3>3. Send a message</h3>
+
+<!-- Goal: Create a form and send the following information to the backend server. 
+I have already created an API to handle everything in the backend for you.
+API address: https://cloudsking.com/react_api.php
+API method: POST
+API parameters: name, phone_number, message
+When API return the error message, you need to display the error message on the page.
+When API return the success message, you need to display the success message on the page.
+Use the React way to solve it. (Axios is recommended) -->
+
+<!-- But Axios is not the way that we use in IEEE. Let's start from the easy step for this assignment.
+In the future, we will learn how to use Redux Thunk to handle the API calls.
+If you are interested, you are more than welcome to try to use Redux Thunk to handle the API calls to challenge yourself for now.
+All web team directors and senior web asscotiates will be happy to help you if you have any questions. -->
+
+
+<!-- You might find this PR useful: How to use Formik
+https://github.com/ieeeuoft/hackathon-template/pull/411/files -->
+
+<h1>Hey, this is "send message" page</h1>
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="tell me your name">
+
+    <label>Phone number:</label>
+    <input type="text" placeholder="tell me your phone number">
+
+    <label>Message:</label>
+    <input type="text" placeholder="tell me your message">
+
+    <button type="submit">Submit</button>
+
+</form>
+<h3>[IEEE UofT] Your message has been sent to lih!</h3>
+<h3>back</h3>
