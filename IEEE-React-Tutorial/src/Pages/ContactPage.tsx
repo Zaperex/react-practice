@@ -7,14 +7,12 @@ function ContactPage() {
       <br />
       <h1>Contact Me</h1>
       <p>Phone number: 416-xxx-xxxx</p>
-      <p>My Instagram QR code: &lt;Please insert an image here&gt; </p>
-      <p>
-        Linkedin icon, and after clicking on it, your linkedin page will be
-        opened
-      </p>
-      <p>
-        Github icon, and after clicking on it, your github page will be opened
-      </p>
+      <Link to="https://www.linkedin.com/in/franktt-kong/" target="_blank">
+        <img src="../assets/linkedin_logo.png" alt="Linkedin Logo"></img>
+      </Link>
+      <Link to="https://github.com/Zaperex" target="_blank">
+        <img src="../assets/github.png" alt="Github Logo"></img>
+      </Link>
       <br />
       <Link to="/">Back</Link>
     </>
